@@ -2,13 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        IntegerConvertion integerConverter = new IntegerConvertion();
-        BitShifter bitshifter = new BitShifter();
-        LiteralBitReader literalBitReader = new LiteralBitReader();
-        XyzExercise xyzExercise = new XyzExercise();
-        //integerConverter.DisplayNumConversions(165);
-        //bitshifter.ShiftBit(14);
-        //literalBitReader.ReadLiteralData(-70);
-        xyzExercise.Run();
+        int a = 2;
+        long b = 3;
+        b = a;
+        // przypisanie B do A nie jest możliwe bez zastosowania castowania
+        // ze względu na mniejszą pojemność typu int
+        a = b;
     }
 }

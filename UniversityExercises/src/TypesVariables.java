@@ -1,0 +1,32 @@
+public class TypesVariables {
+    boolean boolMin = false;
+    boolean boolMax = true;
+    byte byteMin = -128;
+    byte byteMax = 127;
+    short shortMin = -32768;
+    short shortMax = 32767;
+    int intMinDec = -2147483648;
+    int intMaxDec = 2147483647;
+    int intMinHex = 0x80000000;
+    int intMaxHex = 0x7FFFFFFF;
+    int intMinOct = 020000000000;
+    int intMaxOct = 017777777777;
+    int intMinBin = 0b10000000000000000000000000000000;
+    int intMaxBin = 0b01111111111111111111111111111111;
+    long longMinDec = -9223372036854775808L;
+    long longMaxDec = 9223372036854775807L;
+    long longMinHex = 0x8000000000000000L;
+    long longMaxHex = 0x7FFFFFFFFFFFFFFFL;
+    long longMinOct = 01000000000000000000000L;
+    long longMaxOct = 0777777777777777777777L;
+    long longMinBin = 0b1000000000000000000000000000000000000000000000000000000000000000L;
+    long longMaxBin = 0b0111111111111111111111111111111111111111111111111111111111111111L;
+    float floatMin = -3.4028235E38f;
+    float floatMax = 3.4028235E38f;
+    double doubleMin = -1.7976931348623157E308;
+    double doubleMax = 1.7976931348623157E308;
+    char charMinDec = 0;
+    char charMaxDec = 65535;
+    char charMinHex = '\u0000';
+    char charMaxHex = '\uFFFF';
+}
